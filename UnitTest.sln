@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mathematics", "Mathematics", "{8C19A03E-C80D-47A2-8E9E-B1C0529BE831}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssertMethods", "src\AssertMethods\AssertMethods.csproj", "{444325C9-6E4C-4086-A536-C8D2A6E01359}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mathematics.App", "src\Mathematics\Mathematics.App\Mathematics.App.csproj", "{AAEED8F0-EA41-401E-889A-A1735C2414BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mathematics.Test", "src\Mathematics\Mathematics.Test\Mathematics.Test.csproj", "{6C2D92B6-1AF0-43A1-8D02-3C78121FE6D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Moq", "Moq", "{076FFA50-3BEE-43E0-807E-20BD341B2676}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Moq.App", "src\Moq\Moq.App\Moq.App.csproj", "{4515233F-68E8-4205-A746-BCD41A1D1FE8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Moq.Test", "src\Moq\Moq.Test\Moq.Test.csproj", "{7FF34126-EBA7-4865-BF49-EA8A1CC459E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "src\WebApi\WebApi.csproj", "{88AB123E-9189-441D-A891-85D52CAD841B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Test", "src\WebApi.Test\WebApi.Test.csproj", "{86D98F87-B204-4CC3-8F7D-80841E2D3513}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{444325C9-6E4C-4086-A536-C8D2A6E01359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{444325C9-6E4C-4086-A536-C8D2A6E01359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{444325C9-6E4C-4086-A536-C8D2A6E01359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{444325C9-6E4C-4086-A536-C8D2A6E01359}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAEED8F0-EA41-401E-889A-A1735C2414BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAEED8F0-EA41-401E-889A-A1735C2414BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAEED8F0-EA41-401E-889A-A1735C2414BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAEED8F0-EA41-401E-889A-A1735C2414BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C2D92B6-1AF0-43A1-8D02-3C78121FE6D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C2D92B6-1AF0-43A1-8D02-3C78121FE6D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C2D92B6-1AF0-43A1-8D02-3C78121FE6D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C2D92B6-1AF0-43A1-8D02-3C78121FE6D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4515233F-68E8-4205-A746-BCD41A1D1FE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4515233F-68E8-4205-A746-BCD41A1D1FE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4515233F-68E8-4205-A746-BCD41A1D1FE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4515233F-68E8-4205-A746-BCD41A1D1FE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FF34126-EBA7-4865-BF49-EA8A1CC459E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FF34126-EBA7-4865-BF49-EA8A1CC459E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FF34126-EBA7-4865-BF49-EA8A1CC459E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FF34126-EBA7-4865-BF49-EA8A1CC459E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88AB123E-9189-441D-A891-85D52CAD841B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88AB123E-9189-441D-A891-85D52CAD841B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88AB123E-9189-441D-A891-85D52CAD841B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88AB123E-9189-441D-A891-85D52CAD841B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86D98F87-B204-4CC3-8F7D-80841E2D3513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86D98F87-B204-4CC3-8F7D-80841E2D3513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86D98F87-B204-4CC3-8F7D-80841E2D3513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86D98F87-B204-4CC3-8F7D-80841E2D3513}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AAEED8F0-EA41-401E-889A-A1735C2414BF} = {8C19A03E-C80D-47A2-8E9E-B1C0529BE831}
+		{6C2D92B6-1AF0-43A1-8D02-3C78121FE6D4} = {8C19A03E-C80D-47A2-8E9E-B1C0529BE831}
+		{4515233F-68E8-4205-A746-BCD41A1D1FE8} = {076FFA50-3BEE-43E0-807E-20BD341B2676}
+		{7FF34126-EBA7-4865-BF49-EA8A1CC459E7} = {076FFA50-3BEE-43E0-807E-20BD341B2676}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6D8B700-1C27-4B56-93EE-09EBAA99B44D}
+	EndGlobalSection
+EndGlobal
